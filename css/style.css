@@ -1,0 +1,18 @@
+.pb_header{
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+}
+.pb_header .brand img{
+    width: 26%;
+}
+.pb_button{
+    color: #fff;
+    font-weight: bold;
+    background-color: #FF9900;
+}
+.order-sec{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
