@@ -11,24 +11,38 @@
 <body>
     <header class="pb_header">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="brand">
-                        <img src="../images/pizzabite.png" alt="">
-                    </div>
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                      <div class="brand"><img src="../images/pizzabite.png" alt=""></div>
+                  </a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="place_order.html">Order</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="">
+                            <i class="fas fa-shopping-cart"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="order-sec">
-                        <a href="/place_order.html" class="btn pb_button">order now</a>
-                    </div>
-                </div>
-            </div>
+            </nav>
         </div>
     </header >
     <section class="pb-order section">
-        <div class="card" style="width: 18rem;">
-            
-          </div>
     </section>
+    <div class="checkout-section" id="checkout">
+
+    </div>
+    <script src="https://kit.fontawesome.com/cb22a78b37.js" crossorigin="anonymous"></script>
 </body>
 </html>

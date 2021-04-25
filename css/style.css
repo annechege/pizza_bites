@@ -1,10 +1,19 @@
 .pb_main{
     overflow: hidden;
+    overflow-x: hidden!important;
+    position: relative;
 }
 .pb_header{
     padding: 20px 0;
     display: flex;
     align-items: center;
+}
+.navbar{
+    background-color: #fff!important;
+}
+.collapse{
+    display: flex!important;
+    justify-content: flex-end;
 }
 .pb_header .brand img{
     width: 26%;
@@ -13,6 +22,12 @@
     color: #fff;
     font-weight: bold;
     background-color: #FF9900;
+}
+.nav-link{
+    position: relative;
+}
+.nav-link:hover{
+    color:  #FF9900!important;
 }
 .order-sec{
     width: 100%;
@@ -47,4 +62,58 @@
 }
 .love{
     color: chocolate;
+}
+.checkout-section{
+    width: 500px;
+    position: absolute;
+    right: -504px;
+    padding: 40px 30px;
+    top: 0;
+    background-color: #fff;
+    height: 100vh;
+    box-shadow: 0 5px 10px rgba(154,160,185,.05), 0 15px 40px rgba(166,173,201,.2);
+}
+.checkout-section h2{
+    margin-bottom: 30px;
+}
+.pb_card{
+    width: 100%!important;
+    box-shadow: 0 7px 30px -10px rgba(150,170,180,0.5);
+    border: 0 solid transparent;
+    padding: 20px;
+}
+.pb_card .card-title{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.pb_card .card-img{
+    width: 90px;
+    height: 90px;   
+    position: relative;
+}
+.pb_card .card-img img{
+    object-fit: contain;
+    width: 90px;
+}
+.order-sum{
+    margin-top: 15px;
+    overflow-y: auto;
+}
+.items-count{
+    display: flex;
+    align-items: center;
+}
+.items-count .count{
+    padding: 10px;
+    background-color: chocolate;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    margin: 0 10px;
+}
+.pb_checkout-total{
+    margin-top: 30px;
 }
