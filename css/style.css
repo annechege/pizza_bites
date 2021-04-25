@@ -121,3 +121,16 @@
 .pb_checkout-total{
     margin-top: 30px;
 }
+.mid-sec{
+    margin: 0 auto;
+    height: 100vh;
+    width: 400px;
+}
+.mid-sec .card{
+    width: 100%!important;
+    padding: 10px;
+}
+select{
+    width: 100%!important;
+    padding: 10px;
+}
