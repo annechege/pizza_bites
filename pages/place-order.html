@@ -15,7 +15,7 @@
     <link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="../favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
@@ -23,12 +23,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
     <title>Pizzabites</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <script
     src="https://code.jquery.com/jquery-3.6.0.slim.min.js"
     integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
     crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+    <script src="../js/main.js"></script>
 </head>
 <body>
     <main class="pb_main">
@@ -37,7 +37,7 @@
                 <nav class="navbar navbar-expand-lg navbar-light bg-light">
                     <div class="container-fluid">
                       <a class="navbar-brand" href="#">
-                          <div class="brand"><img src="images/pizzabite.png" alt=""></div>
+                          <div class="brand"><img src="../images/pizzabite.png" alt=""></div>
                       </a>
                       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
@@ -45,10 +45,10 @@
                       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                           <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" href="pages/place-order.html">Order</a>
+                            <a class="nav-link" href="place_order.html">Order</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link cart" id="cart" href="">
@@ -61,30 +61,11 @@
                 </nav>
             </div>
         </header>
-        <section class="hero-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="hero-content">
-                            <h1 class="h2">We deliver in less than 30 minutes</h1>
-                            <p> Welcome to pizzabite where its always a joy to meet you aquitances we offer quality and affordable pizza thats why it's always <strong class="love">LOVE AT FIRST BITE</strong>.Our ready stuff are always ready to make sure your oder is received and is deliverd on time without any delay what so ever</p>
-
-                            <a href="pages/place_order.html" class="btn pb_button cta">Order now</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="hero-image">
-                            <img src="images/delivary.svg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
+        
         <div class="checkout-section" id="checkout">
             <div class="heading" style="display: flex; justify-content: space-between;">
                 <h2 class="h4">Order summary</h2>
                 <p style="cursor: pointer;" id="close">close</p>
-
             </div>
             <p><strong>items: 1 Items</strong></p>
             <div class="order-sum">
